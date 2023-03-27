@@ -1,5 +1,5 @@
 * {
-    background-color: darkblue;
+    background-color: lavender;
 }
 
 title {display: hidden;
@@ -10,6 +10,12 @@ title {display: hidden;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.3fr 1.5fr 1.1fr 0.8fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "sidebar main main main"
+    "sidebar content1 content2 content3"
+    "sidebar footer footer footer";
+    grid-gap: 7px;
 }
 
 nav { 
@@ -49,3 +55,17 @@ footer {
     grid-area: footer;
 }
 
+@media only screen and (max-width: 786px) {
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 2.0fr 1.0fr 1fr 1fr 1.4fr;
+        grid-template-areas: 
+        "nav"
+        "sidebar"
+        "main"
+        "content1"
+        "content2"
+        "content3"
+        "footer";
+    }
+}
