@@ -1,3 +1,7 @@
+:root{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
 * {
     background-color: lavender;
 }
@@ -15,16 +19,13 @@ title {display: hidden;
     "sidebar main main main"
     "sidebar content1 content2 content3"
     "sidebar footer footer footer";
-    grid-gap: 7px ;
+    grid-gap: 5px ;
     color: black;
     font-size: larger;
     justify-content: center;
     
 }
 
-img {
-    position: ;
-}
 
 h1 {
     background: transparent;  
@@ -43,6 +44,7 @@ h3 {
 }
 
 h4 {
+    
     background: transparent;  
     text-align: left;
     font-size:larger;
@@ -50,6 +52,7 @@ h4 {
 }
 
 nav { 
+    display: flex;
     background-color: slategray; 
     grid-area: nav;
     
@@ -60,21 +63,9 @@ nav {
     padding: 0 3px 0 3px;
  }
 
-
-.button{
-    position: space-around; 
-    height: 50%;
-    background-color: #dd6e42; 
-    border-radius: 5px;
-
-}
 a{
     background: transparent;
-}
-section {
-    background: transparent;
-    height: fit-content;
-    align-content: center;
+    margin: 0px 20px 0px 20px;
 }
 
 main {
@@ -113,11 +104,29 @@ li {
 }
 
 footer {
+    
     background-color: teal;
     grid-area: footer;
-    justify-content: center;
-    align-items: center;
+   
 }
+
+section {
+    background: transparent;
+    text-align: center;
+    
+}
+.button{
+    
+    height: 75px;
+    width: 75px;
+    background-color: #dd6e42; 
+    border-radius: 5px;
+    border-color: whitesmoke;
+    
+
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .container{
