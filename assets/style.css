@@ -11,3 +11,41 @@ title {display: hidden;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.3fr 1.5fr 1.1fr 0.8fr;
 }
+
+nav { 
+    background-color: rgb(151, 230, 77); 
+    grid-area: nav;
+}
+
+main {
+    background-color: cadetblue;
+    grid-area: main;
+}
+
+#sidebar {
+    background-color: chocolate;
+    grid-area: sidebar;
+
+}
+
+#content1 {
+    background-color: rgb(88, 32, 193);
+    grid-area: content1;
+}
+
+#content2 {
+    background-color: cyan;
+    grid-area: content2;
+    
+}
+
+#content3 {
+    background-color: lawngreen;
+    grid-area: content3;
+}
+
+footer {
+    background-color: bisque;
+    grid-area: footer;
+}
+
