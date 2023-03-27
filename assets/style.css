@@ -15,17 +15,66 @@ title {display: hidden;
     "sidebar main main main"
     "sidebar content1 content2 content3"
     "sidebar footer footer footer";
-    grid-gap: 7px;
+    grid-gap: 7px ;
     color: black;
+    font-size: larger;
+    justify-content: center;
+    
+}
+
+img {
+    position: ;
+}
+
+h1 {
+    background: transparent;  
+    text-align: center;
+}
+
+h2 {
+    background: transparent;  
+    text-align: center;
+    font-size: large;
+}
+h3 {
+    background: transparent;  
     text-align: center;
     font-size: larger;
-    text-transform: capitalize;
-    text-shadow: 1px grey;
+}
+
+h4 {
+    background: transparent;  
+    text-align: left;
+    font-size:larger;
+    
 }
 
 nav { 
     background-color: slategray; 
     grid-area: nav;
+    
+}
+ p {
+    background: transparent;  
+    text-align: center;
+    padding: 0 3px 0 3px;
+ }
+
+
+.button{
+    position: space-around; 
+    height: 50%;
+    background-color: #dd6e42; 
+    border-radius: 5px;
+
+}
+a{
+    background: transparent;
+}
+section {
+    background: transparent;
+    height: fit-content;
+    align-content: center;
 }
 
 main {
@@ -39,6 +88,14 @@ main {
 
 }
 
+ul {
+    background: transparent;
+
+}
+
+li {
+    background: transparent;
+}
 #content1 {
     background-color: #dd6e42;
     grid-area: content1;
@@ -58,6 +115,8 @@ main {
 footer {
     background-color: teal;
     grid-area: footer;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
