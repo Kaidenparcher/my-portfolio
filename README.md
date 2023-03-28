@@ -7,8 +7,8 @@ This Portfolio was created to highlight my talents to potential employers. At th
 
 Although this portfolio is small and bland, I plan to continually add to it as my skills improve. There will also be a chance to upload many more projects as this class moves along.
 
-
-
+Repository URL: https://github.com/Kaidenparcher/my-portfolio
+Deployed URl: https://kaidenparcher.github.io/my-portfolio/
 
 ## Installation
 
