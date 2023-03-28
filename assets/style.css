@@ -22,6 +22,7 @@ title {display: hidden;
     color: black;
     font-size: larger;
     justify-content: center;
+    text-align: center;
     
 }
  #photos {
@@ -29,9 +30,8 @@ title {display: hidden;
  }
 
  img{
-    margin-left: 55px;
+    text-align:  center;
     border-radius: 5px;
-    
  }
 
 h1 {
@@ -42,7 +42,8 @@ h1 {
 h2 {
     background: transparent;  
     text-align: center;
-    font-size: large;
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
 }
 h3 {
     background: transparent;  
