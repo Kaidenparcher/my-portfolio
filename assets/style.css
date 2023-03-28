@@ -2,7 +2,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 * {
-    background-color: lavender;
+    background-color: rgb(52, 18, 10);
 }
 
 title {display: hidden;
@@ -24,7 +24,15 @@ title {display: hidden;
     justify-content: center;
     
 }
+ #photos {
+   
+ }
 
+ img{
+    margin-left: 55px;
+    border-radius: 5px;
+    
+ }
 
 h1 {
     background: transparent;  
@@ -46,7 +54,8 @@ h4 {
     
     background: transparent;  
     text-align: left;
-    font-size:larger;
+    font-size: 50px;
+    margin: 10px;
     
 }
 
@@ -54,18 +63,19 @@ nav {
     display: flex;
     background-color: slategray; 
     grid-area: nav;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
+
  p {
     background: transparent;  
     text-align: center;
     padding: 0 3px 0 3px;
+    justify-content: center;
  }
 
-a{
+a {
     background: transparent;
-    margin: 0px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 main {
@@ -76,6 +86,7 @@ main {
 #sidebar {
     background-color: lightblue;
     grid-area: sidebar;
+    justify-content: center;
 
 }
 
@@ -110,15 +121,34 @@ footer {
    
 }
 
+#footer {
+  align-items: space-around;
+}
+
 section {
     background: transparent;
     text-align: center;
     
 }
+
+.sidebar {
+ align-content: center;
+
+}
 .button{
     
     height: 75px;
     width: 75px;
+    background-color: #dd6e42; 
+    border-radius: 5px;
+    border-color: whitesmoke;
+    
+
+}
+.button1{
+    
+    height: 25px;
+    width: fit-content;
     background-color: #dd6e42; 
     border-radius: 5px;
     border-color: whitesmoke;
